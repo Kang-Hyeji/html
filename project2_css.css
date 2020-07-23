@@ -1,0 +1,29 @@
+
+@font-face { font-family: 'TmoneyRoundWindExtraBold'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-07@1.0/TmoneyRoundWindExtraBold.woff') format('woff'); font-weight: normal; font-style: normal; }
+*{
+    font-family: 'TmoneyRoundWindExtraBold';
+    margin-top: 1em;
+}
+form{
+    text-align: center;
+}
+#intro{
+    border-radius: 1em;
+    background-color: rgb(253, 253, 236);
+    text-align: center;
+}
+input{
+    border-radius: 4em;
+    border-color: darkgray;
+    border-style: solid;
+}
+
+input:hover{
+    border-color: rgb(122, 167, 233);
+}
+
+
+.button:hover{
+    background-color: rgb(122, 167, 233);
+    border: white;
+}
